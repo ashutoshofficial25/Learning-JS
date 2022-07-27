@@ -1,0 +1,17 @@
+
+1. Explain the use of JavaScript ( or What you can do using a JavaScript)
+
+    Explanation: JavaScript is a progrmming language, it is Single threded ,high level , object orientd . using this we can build web projects and may more thing.
+    it can be used out of the browser like all progrmming languages , When we use JavaScript out of the browser on nodeJS we can build servers , apis and  many more.
+    using JavaScript we can build a full stack web application,we can solve DSA problems,mobile application..etc
+    it is not just a scripting language it  is more than that, 
+
+
+2. What is the difference between client-side and server-side?
+
+
+3. What is Nodejs?
+4. Explain Scope in JavaScript
+5. JavaScript is asynchronous or synchronous.
+6. JavaScript is Single-threaded or Multi-threaded.
+7. Explain DOM in your own word.
