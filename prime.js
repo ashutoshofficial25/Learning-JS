@@ -1,5 +1,5 @@
 const prime = (number) => {
-  for (let i = 2; i <= number; i++) {
+  for (let i = 2; i < number; i++) {
     if (number % i == 0) {
       return console.log("not prime");
     }
@@ -7,4 +7,4 @@ const prime = (number) => {
   return console.log("prime");
 };
 
-prime(9);
+prime(43);

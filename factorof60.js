@@ -7,8 +7,8 @@ const factor = (n) => {
     let digit = n / 10;
     if (digit == 0 && isZero == false) {
       return (isZero = true);
-    }else{
-      let x...
+    } else {
+      let x;
     }
   }
 };
