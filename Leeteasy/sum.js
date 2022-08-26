@@ -27,3 +27,17 @@
 // Output: 2, nums = [1,2,_]
 // Explanation: Your function should return k = 2, with the first two elements of nums being 1 and 2 respectively.
 // It does not matter what you leave beyond the returned k (hence they are underscores).
+
+//Solution
+const removeDuplicates = (array) => {
+  let newArr = [];
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] != array[i + 1]) {
+      //here we can use pointer and reverse like something
+      newArr.push(array[i]);
+    }
+  }
+  return newArr;
+};
+
+console.log(removeDuplicates([1, 1, 2, 2, 3, 3, 3, 8, 8, 8, 8, 9]));
