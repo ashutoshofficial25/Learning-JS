@@ -25,9 +25,29 @@ getUniqueMatrix = (matrix) => {
 let mat = [
   [4, 55, 66],
   [5, 21, 63],
-  [55, 22, 33],
+  [55, 22, 5],
 ];
-console.log(getUniqueMatrix(mat));
+// console.log(getUniqueMatrix(mat));
 
 //Working but some changes required
 // need more optmizaion in code..
+// solution using map function
+
+const getUnique = (matrix) => {
+  let map = {};
+  count = 1;
+  for (let i = 0; i < matrix.length; i++) {
+    for (let j = 0; j < matrix[i].length; j++) {
+      map[matrix[i][j]] = (map[matrix[i][j]] || 0) + 1;
+    }
+  }
+  return map;
+};
+
+let res = getUnique(mat);
+
+for (let keys in res) {
+  if (res[keys] == 1) {
+    console.log(keys);
+  }
+}
