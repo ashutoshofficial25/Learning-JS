@@ -8,7 +8,6 @@ const removeDuplicate = (nums) => {
   for (let keys in map) {
     arr.push(map[keys]);
   }
-
   return arr;
 };
 
